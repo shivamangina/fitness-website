@@ -9,6 +9,7 @@ export default function Header() {
             <nav class="flex flex-wrap items-center justify-center text-base font-light tracking-tight md:ml-auto">
                 <a href="#_" class="mr-5 hover:text-gray-900">Home</a>
                 <a href="#_" class="mr-5 hover:text-gray-900">Features</a>
+                <a href="/classes" class="mr-5 hover:text-gray-900">Classes</a>
                 <a href="#_" class="mr-5 hover:text-gray-900">Pricing</a>
                 <a href="#_" class="mr-5 hover:text-gray-900">Blog</a>
             </nav>
