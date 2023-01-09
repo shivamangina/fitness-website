@@ -7,6 +7,7 @@ import Testomonials from '../components/Testomonials';
 import Cta from '../components/Cta';
 import Video from '../components/Video';
 import Gallery from '../components/Gallery';
+import Quote from '../components/Quote';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Video/>
       <Intro />
       <About />
+      <Quote/>
       <Gallery/>
       <Testomonials />
       <Cta />
