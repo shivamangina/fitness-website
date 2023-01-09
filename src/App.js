@@ -1,25 +1,17 @@
 import './App.css';
-import Header from './components/Header';
-import Intro from './components/Intro';
-import Main from './components/Main';
-import Services from './components/Services';
-import About from './components/About';
-import Testomonials from './components/Testomonials';
-import Contact from './components/Contact';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Classes from './components/Classes';
+import Homes from './pages/Homes';
+
 
 function App() {
   return (
-    <>
-      <Header />
-
-      <Main />
-      <Services />
-      <Intro />
-      <About />
-      <Testomonials/>
-      <Contact/>
-      
-    </>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Homes />} />
+        <Route path='/classes' element={<Classes/>} />
+      </Routes>
+    </Router>
   );
 }
 
