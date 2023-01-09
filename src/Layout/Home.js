@@ -1,29 +1,24 @@
 import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 import Intro from '../components/Intro';
 import Main from '../components/Main';
 import Services from '../components/Services';
 import About from '../components/About';
 import Testomonials from '../components/Testomonials';
-import Contact from '../components/Contact';
-import Social from '../components/Social';
+import Cta from '../components/Cta';
+import Video from '../components/Video';
+import Gallery from '../components/Gallery';
 
-function Home() {
+export default function Home() {
   return (
     <div>
-      <Header />
-
       <Main />
       <Services />
+      <Video/>
       <Intro />
       <About />
-      <Social />
+      <Gallery/>
       <Testomonials />
-      <Contact />
-      <Footer />
+      <Cta />
     </div>
   );
 }
-
-export default Home;
