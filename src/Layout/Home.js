@@ -4,8 +4,9 @@ import Main from '../components/Main';
 import Services from '../components/Services';
 import About from '../components/About';
 import Testomonials from '../components/Testomonials';
-import Contact from '../components/Contact';
+import Cta from '../components/Cta';
 import Video from '../components/Video';
+import Gallery from '../components/Gallery';
 
 export default function Home() {
   return (
@@ -15,8 +16,9 @@ export default function Home() {
       <Video/>
       <Intro />
       <About />
+      <Gallery/>
       <Testomonials />
-      <Contact />
+      <Cta />
     </div>
   );
 }
