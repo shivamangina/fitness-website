@@ -10,7 +10,7 @@ export default function About() {
           <h1
             class="relative z-20 text-5xl font-extrabold leading-none text-purple-500 xl:text-6xl sm:text-center lg:text-left"
             data-primary="purple-500">
-            <span class="mt-1 text-gray-800 lg:mt-0">Dipan Kumar</span>
+            <span class="mt-1 text-gray-800 lg:mt-0">Dipan Rai</span>
           </h1>
           <p class="relative z-20 block mt-6 text-base font-light text-gray-500 xl:text-xl sm:text-center lg:text-left">
             We've crafted the ultimate tool that helps you build the design of your dreams. Built with configuration in mind, you can fully customize
@@ -28,7 +28,7 @@ export default function About() {
         <div class="relative w-full px-5 rounded-lg cursor-pointer lg:w-1/2 group xl:px-0">
           <div class="relative overflow-hidden rounded- cursor-pointer group" data-rounded="rounded-md" data-rounded-max="rounded-full">
             <img
-              src="https://images.pexels.com/photos/157675/fashion-men-s-individuality-black-and-white-157675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://images.pexels.com/photos/157675/fashion-men-s-individuality-black-and-white-157675.jpeg"
               class="z-10 object-cover w-full h-full"
             />
           </div>

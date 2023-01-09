@@ -5,12 +5,14 @@ import Services from '../components/Services';
 import About from '../components/About';
 import Testomonials from '../components/Testomonials';
 import Contact from '../components/Contact';
+import Video from '../components/Video';
 
 export default function Home() {
   return (
     <div>
       <Main />
       <Services />
+      <Video/>
       <Intro />
       <About />
       <Testomonials />
