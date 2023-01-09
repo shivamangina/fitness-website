@@ -5,6 +5,7 @@ import React from 'react';
 import Header from './Layout/Header';
 import Footer from './Layout/Footer';
 import Home from './Layout/Home';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/classes" element={<Classes />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </Router>
