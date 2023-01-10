@@ -5,6 +5,16 @@ export default class Contact extends Component {
     email: '',
   };
 
+  // componentDidMount() {
+  //   console.log("component mounted");
+  // }
+
+  // componentDidUpdate() {}
+
+  // componentWillUnmount() {
+  //   console.log("component unmounted");
+  // }
+
   submitEmail = (email) => {
     // fetch('https://api.tailsjs.com/api/v1/subscribe', {
     //   method: 'POST',
