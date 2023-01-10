@@ -13,8 +13,8 @@ export default function Header() {
   return (
     <div class="flex flex-col flex-wrap items-center px-8 py-6 mx-auto max-w-7xl md:flex-row tails-selected-element">
       <a href="#_" class="flex items-center order-first mb-4 font-medium text-gray-900 lg:order-none lg:w-auto title-font lg:items-center lg:justify-center md:mb-0">
-        <span class="text-xl font-black leading-none text-gray-900 select-none logo">
-          <img src={logo} alt="logo" class="w-10 h-10 p-2 " />
+        <span class="text-xl font-black leading-none text-gray-900 select-none logo grayscale">
+          <img src={logo} alt="logo" class="w-10 h-10 p-2" />
         </span>
       </a>
       <nav class="flex flex-wrap items-center justify-center text-base font-light tracking-tight md:ml-auto">

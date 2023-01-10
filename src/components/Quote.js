@@ -12,8 +12,8 @@ export default function Quote() {
             Thanks to the awesomeness of this company I was able to triple MRR by implementing their tools and practices into our business!
           </p>
           <span class="inline-block w-10 h-1 mt-8 mb-6 bg-indigo-500 rounded" data-primary="indigo-500"></span>
-          <h2 class="text-sm font-medium tracking-wider text-gray-900 uppercase title-font">John Doe</h2>
-          <p class="text-gray-500">Senior Product Manager</p>
+          <h2 class="text-sm font-medium tracking-wider text-gray-900 uppercase title-font">Kakashi Hatake</h2>
+          <p class="text-gray-500">Sensei</p>
         </div>
       </div>
     </section>
