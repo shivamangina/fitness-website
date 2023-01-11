@@ -1,68 +1,57 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 export default class Contact extends Component {
-  state = {
-    email: '',
-  };
-
-  submitEmail = (email) => {
-    // fetch('https://api.tailsjs.com/api/v1/subscribe', {
-    //   method: 'POST',
-    //   headers: {
-    //     'Content-Type': 'application/json',
-    //   },
-    //   body: JSON.stringify({
-    //     email: email,
-    //   }),
-    // })
-    //   .then((res) => res.json())
-    //   .then((data) => {
-    //     console.log(data);
-    //   });
-    
-    console.log("Sucessfully sbmited the email: "+ email);
-
-
-    this.setState({ email: '' });
-
-  }
-
   render() {
     return (
-      <section class="bg-gray-50 tails-selected-element">
-        <div class="max-w-7xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
-          <div class="max-w-2xl mx-auto text-center">
-            <h2 class="mb-3 text-2xl sm:text-3xl md:text-4xl font-extrabold leading-tight tracking-tight sm:text-center text-left text-gray-900 poppins">
-              Start your free trial today
-            </h2>
-            <label class="relative block">
-              <span class="sr-only">Search</span>
-              <span class="absolute inset-y-0 left-0 flex items-center pl-2">
-                <svg class="h-5 w-5 fill-slate-300" viewBox="0 0 20 20"></svg>
-              </span>
-              <input
-                onChange={(e) => {
-                  this.setState({ email: e.target.value });
-                }}
-                class="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm"
-                placeholder="Write your email"
-                type="text"
-                name="search"
-                value={this.state.email}
-              />
-            </label>
-            <p class="mb-3 sm:mb-8 font-normal text-gray-500 dark:text-gray-400 text-sm sm:text-base md:text-lg sm:text-center poppins text-left">
-              Start crafting the landing page of your dreams. No credit card required.
+        <div class="py-10 bg-white md:py-16 tails-selected-element" contenteditable="true">
+        <div class="px-10 mx-auto max-w-7xl md:px-16">
+            <div class="max-w-3xl mx-auto mb-10 md:mb-16">
+                <p class="text-xs font-bold text-blue-500 uppercase">Contact Us</p>
+                <h2 class="mt-1 text-2xl font-bold text-left text-gray-800 lg:text-3xl md:mt-2">Need to ask us a question?</h2>
+                <p class="max-w-screen-md mx-auto mt-4 text-left text-gray-500 md:text-lg md:mt-6">
+                    Fill out the form below and we'll do some research on our end and get back to you within 24-48 hours. For specific technical issues, please visit our <a href="#_" class="font-medium text-blue-500 underline">developer help center</a>.
+                </p>
+            </div>
+            <form class="grid max-w-3xl gap-4 mx-auto sm:grid-cols-2">
+                <div>
+                    <label for="first-name" class="inline-block mb-2 text-sm font-medium text-gray-500 sm:text-base">First name</label>
+                    <input name="first-name" class="w-full px-3 py-2 text-gray-800 transition duration-100 border rounded-md outline-none bg-gray-50 focus:ring ring-blue-300"/>
+                </div>
+    
+                <div class="">
+                    <label for="last-name" class="inline-block mb-2 text-sm font-medium text-gray-500 sm:text-base">Last name</label>
+                    <input name="last-name" class="w-full px-3 py-2 text-gray-800 transition duration-100 border rounded-md outline-none bg-gray-50 focus:ring ring-blue-300"/>
+                </div>
+    
+                <div class="sm:col-span-2">
+                    <label for="company" class="inline-block mb-2 text-sm font-medium text-gray-500 sm:text-base">Company</label>
+                    <input name="company" class="w-full px-3 py-2 text-gray-800 transition duration-100 border rounded-md outline-none bg-gray-50 focus:ring ring-blue-300"/>
+                </div>
+    
+                <div class="sm:col-span-2">
+                    <label for="email" class="inline-block mb-2 text-sm font-medium text-gray-500 sm:text-base">Email</label>
+                    <input name="email" class="w-full px-3 py-2 text-gray-800 transition duration-100 border rounded-md outline-none bg-gray-50 focus:ring ring-blue-300"/>
+                </div>
+    
+                <div class="sm:col-span-2">
+                    <label for="subject" class="inline-block mb-2 text-sm font-medium text-gray-500 sm:text-base">Subject</label>
+                    <input name="subject" class="w-full px-3 py-2 text-gray-800 transition duration-100 border rounded-md outline-none bg-gray-50 focus:ring ring-blue-300"/>
+                </div>
+    
+                <div class="sm:col-span-2">
+                    <label for="message" class="inline-block mb-2 text-sm font-medium text-gray-500 sm:text-base">Message</label>
+                    <textarea name="message" class="w-full h-64 px-3 py-2 text-gray-800 transition duration-100 border rounded-md outline-none bg-gray-50 focus:ring ring-blue-300"></textarea>
+                </div>
+    
+                <div class="flex items-center justify-between sm:col-span-2">
+                    <button class="inline-block px-8 py-3 text-sm font-semibold text-center text-white transition duration-100 bg-blue-600 rounded-md outline-none hover:bg-blue-500 active:bg-blue-700 ring-blue-300 md:text-base">Send Message</button>
+                </div>
+            </form>
+            <p class="max-w-3xl mx-auto mt-5 text-xs text-gray-400">
+                Please allow up to 24-48 hour response during the weekdays.
             </p>
-            <a
-             onClick={() => this.submitEmail(this.state.email)}
-              href="#_"
-              class="text-white sm:w-auto w-full block sm:inline-block bg-gray-700 hover:bg-gray-800 focus:ring-4 focus:ring-purple-300 poppins font-bold  text-sm px-5 py-3 mr-2 mb-2 focus:outline-none dark:focus:ring-gray-800">
-              Signup for newsletter
-            </a>
-          </div>
         </div>
-      </section>
-    );
+    </div>
+    )
   }
 }

@@ -6,8 +6,10 @@ import Main from '../components/Main';
 import Services from '../components/Services';
 import About from '../components/About';
 import Testomonials from '../components/Testomonials';
-import Contact from '../components/Contact';
+import Cta from '../components/Cta';
 import Social from '../components/Social';
+import Gallery from '../components/Gallery';
+import Quote from '../components/Quote';
 
 function Home() {
   return (
@@ -17,10 +19,12 @@ function Home() {
       <Main />
       <Services />
       <Intro />
-      <About />
       <Social />
+      <About />
+      <Quote />
+      <Gallery />
       <Testomonials />
-      <Contact />
+      <Cta />
       <Footer />
     </div>
   );

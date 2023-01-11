@@ -3,17 +3,22 @@ import React from 'react';
 export default function Main() {
   return (
     <>
-      <section class="relative w-full bg-white tails-selected-element" >
+      <section class="relative w-full bg-white tails-selected-element">
         <div class="max-w-2xl lg:max-w-7xl px-10 xl:px-8 mx-auto items-center flex lg:flex-row flex-col py-10 sm:py-20">
           <div class="w-full lg:w-1/2">
-            <h1 class="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">
-              Invest in your passion
-              <br /> and success will follow
-            </h1>
-            <p class="mt-8 text-xl text-gray-500">
-              If you want to find true success in your life you must chase your dreams and follow your passion.
-            </p>
-            <a href="#_" class="font-medium sm:w-auto w-full text-center bg-gray-900 mt-8 text-white text-lg px-8 py-4 inline-block rounded-full">
+            <div class="container relative z-20 flex flex-col w-full pr-12 mb-16 text-2xl text-gray-700 sm:px-0 md:px-10 sm:items-center lg:items-start lg:mb-0">
+              <h1 class="relative z-20 font-sans text-4xl font-extrabold leading-none text-black sm:text-5xl xl:text-6xl sm:text-left lg:text-left">
+                <span class="relative">
+                  <span class="absolute bottom-0 left-0 inline-block w-full h-4 mb-1 -ml-1 transform -skew-x-3 bg-red-600" data-primary="yellow-400"></span>
+                  <span class="relative">Learn Together,</span>
+                </span>
+                <span class="relative block text-blue-600" data-primary="yellow-300">
+                  Grow Together.
+                </span>
+              </h1>
+            </div>
+            <p class="mt-8 text-xl text-gray-500">If you want to find true success in your life you must chase your dreams and follow your passion.</p>
+            <a href="#_" class="font-medium sm:w-auto w-full text-center bg-gray-900 mt-8 text-white text-lg px-8 py-4 inline-block">
               Start Your Journey
             </a>
             <p class="text-xs mt-12 text-gray-300 font-bold uppercase tracking-widest">Trusted by leaders in the industry</p>

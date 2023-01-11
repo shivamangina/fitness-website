@@ -7,10 +7,10 @@ export default function Header() {
                 <span class="text-xl font-black leading-none text-gray-900 select-none logo">Box<span class="text-indigo-500" data-primary="indigo-500">.</span></span>
             </a>
             <nav class="flex flex-wrap items-center justify-center text-base font-light tracking-tight md:ml-auto">
-                <a href="#_" class="mr-5 hover:text-gray-900">Home</a>
-                <a href="#_" class="mr-5 hover:text-gray-900">Features</a>
+                <a href="/" class="mr-5 hover:text-gray-900">Home</a>
                 <a href="/classes" class="mr-5 hover:text-gray-900">Classes</a>
-                <a href="#_" class="mr-5 hover:text-gray-900">Pricing</a>
+                <a href="/contact" class="mr-5 hover:text-gray-900">Contact</a>
+                <a href="#gallery" class="mr-5 hover:text-gray-900">Gallery</a>
                 <a href="#_" class="mr-5 hover:text-gray-900">Blog</a>
             </nav>
             <button data-rounded="rounded" class="inline-flex items-center px-3 py-2 mt-4 text-sm font-bold text-gray-700 bg-gray-200 border-0 rounded focus:outline-none hover:bg-gray-300 md:mt-0">
