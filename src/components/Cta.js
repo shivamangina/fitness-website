@@ -5,6 +5,16 @@ export default class Contact extends Component {
     email: '',
   };
 
+  // componentDidMount() {
+  //   console.log("component mounted");
+  // }
+
+  // componentDidUpdate() {}
+
+  // componentWillUnmount() {
+  //   console.log("component unmounted");
+  // }
+
   submitEmail = (email) => {
     // fetch('https://api.tailsjs.com/api/v1/subscribe', {
     //   method: 'POST',
@@ -20,7 +30,7 @@ export default class Contact extends Component {
     //     console.log(data);
     //   });
     
-    console.log("Sucessfully submited the email: "+ email);
+    console.log("Sucessfully sbmited the email: "+ email);
 
 
     this.setState({ email: '' });
