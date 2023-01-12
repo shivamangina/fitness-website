@@ -30,7 +30,7 @@ export default class Contact extends Component {
     //     console.log(data);
     //   });
     
-    console.log("Sucessfully sbmited the email: "+ email);
+    console.log("Sucessfully submitted the email: "+ email);
 
 
     this.setState({ email: '' });
