@@ -12,12 +12,14 @@ export default class Contact extends Component {
 
   submitMessage = (message) => {
     console.log('successfully submitted the message: ' + message);
-    this.setState({ fname: '' });
-    this.setState({ lname: '' });
-    this.setState({ company: '' });
-    this.setState({ email: '' });
-    this.setState({ subject: '' });
-    this.setState({ message: '' });
+    this.setState({
+      fname: '',
+      lname: '',
+      company: '',
+      email: '',
+      subject: '',
+      message: '',
+    });
   };
   render() {
     return (
