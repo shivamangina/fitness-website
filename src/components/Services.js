@@ -1,42 +1,45 @@
 import React from 'react';
+import classNames from 'classnames';
 
 const trendingProducts = [
   {
     id: 1,
     name: 'Boxing',
-    color: 'Natural',
+    color: 'bg-red-400',
     price: 'Starting at ₹750',
     href: '#',
-    imageSrc: 'https://images.pexels.com/photos/1608099/pexels-photo-1608099.jpeg',
-    imageAlt: 'Hand stitched, orange leather long wallet.',
-  },
-  {
-    id: 1,
-    name: 'Kick Boxing',
-    color: 'Natural',
-    price: 'Starting at ₹750',
-    href: '#',
-    imageSrc: 'https://images.pexels.com/photos/1608099/pexels-photo-1608099.jpeg',
-    imageAlt: 'Hand stitched, orange leather long wallet.',
-  },
-  {
-    id: 1,
-    name: 'S & C Training',
-    color: 'Natural',
-    price: 'Starting at ₹750',
-    href: '#',
-    imageSrc: 'https://images.pexels.com/photos/1608099/pexels-photo-1608099.jpeg',
+    imageSrc: `bg-[url(components/hero2.png)]`,
     imageAlt: 'Hand stitched, orange leather long wallet.',
   },
   {
     id: 1,
     name: 'HIIT',
-    color: 'Natural',
+    color: 'bg-green-400',
     price: 'Starting at ₹750',
+
     href: '#',
-    imageSrc: 'https://images.pexels.com/photos/1608099/pexels-photo-1608099.jpeg',
+    imageSrc: `bg-[url(components/2.jpg)]`,
     imageAlt: 'Hand stitched, orange leather long wallet.',
   },
+  {
+    id: 1,
+    name: 'Kick Boxing',
+    color: 'bg-blue-400',
+    price: 'Starting at ₹750',
+    href: '#',
+    imageSrc: `bg-[url(components/4.jpg)]`,
+    imageAlt: 'Hand stitched, orange leather long wallet.',
+  },
+  {
+    id: 1,
+    name: 'S & C Training',
+    color: 'bg-purple-400',
+    price: 'Starting at ₹750',
+    href: '#',
+    imageSrc: `bg-[url(components/3.jpg)]`,
+    imageAlt: 'Hand stitched, orange leather long wallet.',
+  },
+ 
 ];
 
 export default function Example() {
@@ -51,8 +54,13 @@ export default function Example() {
                 <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-4 md:gap-y-0 lg:gap-x-8">
                   {trendingProducts.map((product) => (
                     <div key={product.id} className="group relative">
-                      <div className="h-56 w-full overflow-hidden rounded-md group-hover:opacity-75 lg:h-72 xl:h-80">
-                        <img src={product.imageSrc} alt={product.imageAlt} className="h-full w-full object-cover object-center grayscale" />
+                      <div
+                        className={classNames(
+                          'h-56 w-full overflow-hidden rounded-md group-hover:opacity-75 lg:h-72 xl:h-80  bg-blend-hard-light bg-center bg-cover',
+                          product.color,
+                          product.imageSrc,
+                        )}>
+                        {/* <img src={image} alt={product.imageAlt} className="h-full w-full object-cover object-center" /> */}
                       </div>
                       <h3 className="mt-4 text-sm text-gray-700">
                         <a href={product.href}>
