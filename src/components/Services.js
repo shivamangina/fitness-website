@@ -8,7 +8,7 @@ const trendingProducts = [
     color: 'bg-red-400',
     price: 'Starting at ₹750',
     href: '#',
-    imageSrc: `bg-[url(components/hero2.png)]`,
+    imageSrc: `bg-[url(images/hero2.png)]`,
     imageAlt: 'Hand stitched, orange leather long wallet.',
   },
   {
@@ -18,7 +18,7 @@ const trendingProducts = [
     price: 'Starting at ₹750',
 
     href: '#',
-    imageSrc: `bg-[url(components/2.jpg)]`,
+    imageSrc: `bg-[url(images/2.jpg)]`,
     imageAlt: 'Hand stitched, orange leather long wallet.',
   },
   {
@@ -27,7 +27,7 @@ const trendingProducts = [
     color: 'bg-blue-400',
     price: 'Starting at ₹750',
     href: '#',
-    imageSrc: `bg-[url(components/4.jpg)]`,
+    imageSrc: `bg-[url(images/4.jpg)]`,
     imageAlt: 'Hand stitched, orange leather long wallet.',
   },
   {
@@ -36,7 +36,7 @@ const trendingProducts = [
     color: 'bg-purple-400',
     price: 'Starting at ₹750',
     href: '#',
-    imageSrc: `bg-[url(components/3.jpg)]`,
+    imageSrc: `bg-[url(images/3.jpg)]`,
     imageAlt: 'Hand stitched, orange leather long wallet.',
   },
  

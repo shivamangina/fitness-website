@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../images/logo.png';
+
 
 const menu = [
   { name: 'Home', href: '#_' },
