@@ -4,8 +4,8 @@ import logo from '../images/logo.png';
 const menu = [
   { name: 'Home', href: '#_' },
   { name: 'About us', href: '#_' },
-  { name: 'Classes', href: '#_' },
-  { name: 'Gallery', href: '#_' },
+  { name: 'Classes', href: '/classes' },
+  { name: 'Gallery', href: '#gallery' },
   { name: 'Contact', href: '#_' },
 ];
 
