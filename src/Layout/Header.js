@@ -3,7 +3,8 @@ import logo from '../images/logo.png';
 
 const menu = [
   { name: 'Home', href: '#_' },
-  { name: 'About us', href: '#_' },
+  { name: 'About Me', href: '#_' },
+  { name: 'My Team', href: '#_' },
   { name: 'Classes', href: '/classes' },
   { name: 'Gallery', href: '#gallery' },
   { name: 'Contact', href: '#_' },
@@ -16,13 +17,12 @@ export default function Header() {
         <span class="text-xl font-black leading-none text-gray-900 select-none logo">
           {/* <img src={logo} alt="logo" class="h-14 p-2" /> */}
           <button
-                type="submit"
-                class="inline-flex items-center justify-center h-10 px-6 mr-6 font-light bg-gradient-to-r from-green-400 via-blue-500 to-purple-500 tracking-wide text-white transition duration-200  hover:bg-gray-900 focus:shadow-outline focus:outline-none"
-                data-rounded="rounded-lg"
-                data-primary="gray-900">
-                COACH DIPAN
-                
-              </button>
+            type="submit"
+            class="inline-flex items-center justify-center h-10 px-6 mr-6 font-light bg-gray-900 tracking-wide text-white transition duration-200  hover:bg-gray-900 focus:shadow-outline focus:outline-none"
+            data-rounded="rounded-lg"
+            data-primary="gray-900">
+            COACH DIPAN
+          </button>
         </span>
       </a>
       <nav class="flex flex-wrap items-center justify-center text-base font-light tracking-tight md:ml-auto">
