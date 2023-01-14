@@ -52,7 +52,7 @@ export default function Example() {
                   {trendingProducts.map((product) => (
                     <div key={product.id} className="group relative">
                       <div className="h-56 w-full overflow-hidden rounded-md group-hover:opacity-75 lg:h-72 xl:h-80">
-                        <img src={product.imageSrc} alt={product.imageAlt} className="h-full w-full object-cover object-center" />
+                        <img src={product.imageSrc} alt={product.imageAlt} className="h-full w-full object-cover object-center grayscale" />
                       </div>
                       <h3 className="mt-4 text-sm text-gray-700">
                         <a href={product.href}>
@@ -61,7 +61,7 @@ export default function Example() {
                         </a>
                       </h3>
 
-                      <p className="mt-1 text-sm font-medium text-gray-900">
+                      <p className="mt-1 text-sm font-medium text-gray-900 ">
                         {product.price} <span aria-hidden="true"> &rarr;</span>
                       </p>
                     </div>
