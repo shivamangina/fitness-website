@@ -13,7 +13,7 @@ export default function Intro() {
                 <div class="container px-8 mx-auto sm:px-12 lg:px-20">
                   <div class="flex space-x-20 items-center justify-center  grid-cols-12 gap-y-8">
                     <div class="flex items-center justify-center col-span-6 sm:col-span-4 md:col-span-3 xl:col-span-2">
-                      <a href="https://www.instagram.com/coachdipan" target={'_blank'}>
+                      <a href="https://www.facebook.com/deepen.rai.146" target={'_blank'}>
                         <img src="https://cdn.devdojo.com/tails/images/facebook.svg" alt="Hubspot" class="block object-contain h-9" />
                       </a>
                     </div>
