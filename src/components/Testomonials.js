@@ -6,7 +6,7 @@ export default function Testomonials() {
       <div class="px-16 bg-white">
         <div class="container flex flex-col items-start mx-auto lg:items-center">
           <p
-            class="relative flex items-start justify-start w-full text-lg font-bold tracking-wider text-purple-500 uppercase lg:justify-center lg:items-center"
+            class="relative flex items-start justify-start w-full text-lg font-light tracking-wider text-purple-500 uppercase lg:justify-center lg:items-center"
             data-primary="purple-500">
             Don't just take our word for it
           </p>
@@ -23,59 +23,69 @@ export default function Testomonials() {
           </h2>
           <div class="block w-full h-0.5 max-w-lg mt-6 bg-purple-100 rounded-full" data-primary="purple-600"></div>
 
-          <div class="items-center justify-center w-full mt-12 mb-4 lg:flex">
+          <div class="items-start justify-center w-full mt-12 mb-4 lg:flex">
             <div class="flex flex-col items-start justify-start w-full h-auto mb-12 lg:w-1/3 lg:mb-0">
               <div class="flex items-center justify-center">
-                <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
+                {/* <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
                   <img
                     src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1700&amp;q=80"
                     class="object-cover w-full h-full"
                   />
-                </div>
+                </div> */}
                 <div class="flex flex-col items-start justify-center">
-                  <h4 class="font-bold text-gray-800">John Doe</h4>
-                  <p class="text-gray-600">CEO of Something</p>
+                  <h4 class="font-bold text-gray-800">Pradeep Vancheeswaran</h4>
+                  <p class="text-gray-600">Attended Personal Training</p>
                 </div>
               </div>
-              <blockquote class="mt-8 text-lg text-gray-500">
-                "This is a no-brainer if you want to take your business to the next level. If you are looking for the ultimate toolset, this is it!"
+              <blockquote class="mt-8 text-lg text-gray-500 font-light">
+                "During my recent trip to india for 4 weeks! I have used personal trainers for 15+ years in the US and I can very confidently say that Dipan us in the top 1% in my
+                humble opinion ! He is also a champion boxer and boxing skills are are huge value add! Can’t wait to train with him on my next trip to india in a Few months !"
               </blockquote>
             </div>
             <div class="flex flex-col items-start justify-start w-full h-auto px-0 mx-0 mb-12 border-l border-r border-transparent lg:w-1/3 lg:mb-0 lg:px-8 lg:mx-8 lg:border-gray-200">
               <div class="flex items-center justify-center">
-                <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
+                {/* <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
                   <img
                     src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2547&amp;q=80"
                     class="object-cover w-full h-full"
                   />
-                </div>
+                </div> */}
                 <div class="flex flex-col items-start justify-center">
-                  <h4 class="font-bold text-gray-800">Jane Doe</h4>
-                  <p class="text-gray-600">CTO of Business</p>
+                  <h4 class="font-bold text-gray-800">Aryan</h4>
+                  <p class="text-gray-600">Attended Personal Training</p>
                 </div>
               </div>
-              <blockquote class="mt-8 text-lg text-gray-500">
-                "Thanks for creating this service. My life is so much easier. Thanks for making such a great product."
+              <blockquote class="mt-8 text-lg text-gray-500 font-light">
+                "Dipan trained me for fitness and I am very happy with his training and would like to continue with him for a long time. He teaches each exercise with patience. A
+                great way of teaching and extremely cooperative. I would strongly recommend others. He is a very committed and dedicated person. He has good fitness knowledge and
+                knows exactly what to do."
               </blockquote>
             </div>
             <div class="flex flex-col items-start justify-start w-full h-auto lg:w-1/3">
               <div class="flex items-center justify-center">
-                <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
+                {/* <div class="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
                   <img
                     src="https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1256&amp;q=80"
                     class="object-cover w-full h-full"
                   />
-                </div>
+                </div> */}
                 <div class="flex flex-col items-start justify-center">
-                  <h4 class="font-bold text-gray-800">John Smith</h4>
-                  <p class="text-gray-600">Creator of Stuff</p>
+                  <h4 class="font-bold text-gray-800">George</h4>
+                  <p class="text-gray-600">Attended Personal Training</p>
                 </div>
               </div>
-              <blockquote class="mt-8 text-lg text-gray-500">
-                "Packed with awesome content and exactly what I was looking for. I would highly recommend this to anyone."
+              <blockquote class="mt-8 text-lg text-gray-500 font-light">
+                "He is a very good trainer. He understood that I am a beginner and gave training in such a manner that it never stressed me to exercise. Now I have a better stamina
+                and energy levels."
               </blockquote>
             </div>
           </div>
+
+          <p
+            class="relative flex items-start justify-start w-full text-sm underline font-light italic tracking-wider text-gray-500 uppercase lg:justify-center lg:items-center"
+            data-primary="purple-500">
+            <a href="https://www.urbanpro.com/bangalore/dipan-rai/reviews/11441886">view all reviews on upbonpro here </a>
+          </p>
         </div>
       </div>
     </section>

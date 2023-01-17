@@ -9,7 +9,7 @@ export default class Cta extends Component {
         <div class="max-w-7xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
           <div class="max-w-2xl mx-auto text-center">
             <h2 class="mb-3 text-2xl sm:text-3xl md:text-4xl font-extrabold leading-tight tracking-tight sm:text-center text-left text-gray-900 poppins">
-              Start your free trial today
+            The secret of getting ahead is getting started
             </h2>
             <label class="relative block">
               <span class="sr-only">Search</span>
@@ -18,8 +18,8 @@ export default class Cta extends Component {
               </span>
               
             </label>
-            <p class="mb-3 sm:mb-8 font-normal text-gray-500 dark:text-gray-400 text-sm sm:text-base md:text-lg sm:text-center poppins text-left">
-              Start crafting the landing page of your dreams. No credit card required.
+            <p class="mb-3 sm:mb-8 font-light text-gray-500 dark:text-gray-400 text-sm sm:text-base md:text-lg sm:text-center poppins text-left">
+            Your goal is just a few steps away.
             </p>
             <a
               onClick={() => this.submitEmail(this.state.email)}

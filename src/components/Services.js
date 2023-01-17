@@ -13,14 +13,14 @@ const trendingProducts = [
   },
   {
     id: 1,
-    name: 'HIIT',
+    name: 'S & C Training',
     color: 'bg-green-400',
     price: 'Starting at ₹750',
-
     href: '#',
-    imageSrc: `bg-[url(images/2.jpg)]`,
+    imageSrc: `bg-[url(images/5.jpg)]`,
     imageAlt: 'Hand stitched, orange leather long wallet.',
   },
+ 
   {
     id: 1,
     name: 'Kick Boxing',
@@ -32,13 +32,15 @@ const trendingProducts = [
   },
   {
     id: 1,
-    name: 'S & C Training',
+    name: 'HIIT',
     color: 'bg-purple-400',
     price: 'Starting at ₹750',
+
     href: '#',
     imageSrc: `bg-[url(images/3.jpg)]`,
     imageAlt: 'Hand stitched, orange leather long wallet.',
   },
+  
  
 ];
 

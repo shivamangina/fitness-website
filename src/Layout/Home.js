@@ -6,7 +6,7 @@ import About from '../components/About';
 import Testomonials from '../components/Testomonials';
 import Cta from '../components/Cta';
 import Video from '../components/Video';
-import Gallery from '../components/Gallery';
+// import Gallery from '../components/Gallery';
 import Quote from '../components/Quote';
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
       <Intro />
       <About />
       <Quote/>
-      <Gallery/>
+      {/* <Gallery/> */}
       <Testomonials />
       <Cta />
     </div>

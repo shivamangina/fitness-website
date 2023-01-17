@@ -3,10 +3,10 @@ import React from 'react';
 
 const menu = [
   { name: 'Home', href: '#_' },
-  { name: 'About Me', href: '#_' },
-  { name: 'My Team', href: '#_' },
-  { name: 'Classes', href: '/classes' },
-  { name: 'Gallery', href: '#gallery' },
+  // { name: 'About Me', href: '#_' },
+  // { name: 'My Team', href: '#_' },
+  // { name: 'Classes', href: '/classes' },
+  // { name: 'Gallery', href: '#gallery' },
   { name: 'Contact', href: '#_' },
 ];
 
