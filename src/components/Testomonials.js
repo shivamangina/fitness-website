@@ -84,7 +84,7 @@ export default function Testomonials() {
           <p
             class="relative flex items-start justify-start w-full text-sm underline font-light italic tracking-wider text-gray-500 uppercase lg:justify-center lg:items-center"
             data-primary="purple-500">
-            <a href="https://www.urbanpro.com/bangalore/dipan-rai/reviews/11441886">view all reviews on upbonpro here </a>
+            <a href="https://www.urbanpro.com/bangalore/dipan-rai/reviews/11441886">view all reviews on urbanpro here </a>
           </p>
         </div>
       </div>

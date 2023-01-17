@@ -15,12 +15,13 @@ export default function About() {
             <span class="mt-1 text-gray-800 lg:mt-0">Dipan Rai</span>
           </h1>
           <p class="relative z-20 block mt-6 text-base font-light text-gray-500 xl:text-xl sm:text-center lg:text-left">
-            We've crafted the ultimate tool that helps you build the design of your dreams. Built with configuration in mind, you can fully customize every aspect. I'm here to give
-            you.
-            <br /> <br /> There are no shortcuts when it comes to achieving anything extraordinary. You have to be prepared to work hard and believe in yourself no matter how hard
-            it gets. But if you promise to give it your all, I'll meet you halfway and help you reach your goals. Period. I stand behind my products 100% and by the time you get
-            your hands on them, they've been tasted and tested hundreds of times for flavor, consistency and most importantly RESULTS.
-            <br /> <br /> I know my supplements aren't the cheapest but they are the best. After all, this is your life, how can you not invest in that?
+            A seasoned boxing and fitness trainer with over 7 years of experience in boxing. With a wealth of knowledge and a passion for the sport, I have helped countless boxers
+            reach their full potential and achieve their goals. From amateur to professional, I have worked with a diverse range of athletes and have a proven track record of
+            success. Whether you're looking to improve your technique, increase your fitness, or compete at a high level, I have the skills and expertise to guide you every step of
+            the way.
+            <br /> <br /> There are no shortcuts when it comes to achieving anything extraordinary. You have to be prepared to work hard and believe in yourself no matter how
+            difficult it gets. But if you promise to give it your all, I'll meet you halfway and help you reach your goals.
+            <br /> <br /> See you in the training.
           </p>
         </div>
         <div class="relative w-full px-5 rounded-lg cursor-pointer lg:w-2/5 group xl:px-0">

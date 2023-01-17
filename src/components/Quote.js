@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Quote() {
   return (
-    <section class="text-gray-600 tails-selected-element" contenteditable="true">
+    <section class="text-gray-600 tails-selected-element" >
       <div class="px-10 py-24 mx-auto md:px-12 max-w-7xl">
         <div class="w-full mx-auto text-center xl:w-1/2 lg:w-3/4">
           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 mb-8 text-gray-400" viewBox="0 0 975.036 975.036">

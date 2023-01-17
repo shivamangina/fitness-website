@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 
 const menu = [
   { name: 'Home', href: '/' },
@@ -7,7 +7,7 @@ const menu = [
   // { name: 'My Team', href: '#_' },
   // { name: 'Classes', href: '/classes' },
   // { name: 'Gallery', href: '#gallery' },
-  { name: 'Contact', href: '/' },
+  { name: 'Contact', href: '/contact' },
 ];
 
 export default function Header() {
@@ -21,21 +21,27 @@ export default function Header() {
             class="inline-flex items-center justify-center h-10 px-6 mr-6 font-light bg-gray-900 tracking-wide text-white transition duration-200  hover:bg-gray-900 focus:shadow-outline focus:outline-none"
             data-rounded="rounded-lg"
             data-primary="gray-900">
-            COACH DIPAN
+              <Link to="/">
+              COACH DIPAN
+          </Link>
+            
           </button>
         </span>
       </a>
       <nav class="flex flex-wrap items-center justify-center text-base font-light tracking-tight md:ml-auto">
         {menu.map((item, index) => (
-          <a href={item.href} class="mr-5 hover:text-gray-900">
+          <Link to={item.href} className="mr-5 hover:text-gray-900">
             {item.name}
-          </a>
+          </Link>
         ))}
       </nav>
       <button
         data-rounded="rounded"
         class="inline-flex items-center px-3 py-2 mt-4 text-sm font-bold text-gray-700 bg-gray-200 border-0 rounded focus:outline-none hover:bg-gray-300 md:mt-0">
-        Book Free Trail
+           <Link to="/contact">
+           Book Free Trail
+          </Link>
+        
         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
           <path d="M5 12h14M12 5l7 7-7 7"></path>
         </svg>
