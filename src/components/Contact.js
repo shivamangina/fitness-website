@@ -3,43 +3,40 @@ import React, { Component } from 'react';
 export default class Contact extends Component {
   state = {
     fname: '',
-    lname: '',
-    company: '',
-    email: '',
     subject: '',
     message: '',
   };
 
-  submitMessage = (message) => {
-    console.log('successfully submitted the message: ' + message);
+  submitMessage = (e) => {
+    e.preventDefault();
+    console.log('successfully submitted the message: ', this.state);
+    const number = '919564073380';
+
+    const text = `Hi%20Dipan%2C%0AI%20am%20${encodeURI(this.state.fname)}%20%0Asub%3A%20${encodeURI(this.state.subject)}%2C%0Amessage%3A${encodeURI(this.state.message)}`;
+
+    const url = `https://api.whatsapp.com/send?phone=
+    ${number}&text=${text}`;
+    window.open(url);
+
     this.setState({
       fname: '',
-      lname: '',
-      company: '',
-      email: '',
       subject: '',
       message: '',
     });
   };
   render() {
     return (
-      <div class="py-10 bg-white md:py-16 tails-selected-element" >
+      <div class="py-10 bg-white md:py-16 tails-selected-element">
         <div class="px-10 mx-auto max-w-7xl md:px-16">
           <div class="max-w-3xl mx-auto mb-10 md:mb-16">
             <p class="text-xs font-bold text-blue-500 uppercase">Contact Us</p>
             <h2 class="mt-1 text-2xl font-bold text-left text-gray-800 lg:text-3xl md:mt-2">Need to ask us a question?</h2>
-            <p class="max-w-screen-md mx-auto mt-4 text-left text-gray-500 md:text-lg md:mt-6">
-              Fill out the form below and we'll do some research on our end and get back to you within 24-48 hours. For specific technical issues, please visit our{' '}
-              <a href="#_" class="font-medium text-blue-500 underline">
-                developer help center
-              </a>
-              .
-            </p>
+            
           </div>
           <form class="grid max-w-3xl gap-4 mx-auto sm:grid-cols-2">
             <div>
               <label for="first-name" class="inline-block mb-2 text-sm font-medium text-gray-500 sm:text-base">
-                First name
+                Name
               </label>
               <input
                 onChange={(e) => {
@@ -48,48 +45,6 @@ export default class Contact extends Component {
                 name="first-name"
                 class="w-full px-3 py-2 text-gray-800 transition duration-100 border rounded-md outline-none bg-gray-50 focus:ring ring-blue-300"
                 value={this.state.fname}
-              />
-            </div>
-
-            <div class="">
-              <label for="last-name" class="inline-block mb-2 text-sm font-medium text-gray-500 sm:text-base">
-                Last name
-              </label>
-              <input
-                onChange={(e) => {
-                  this.setState({ lname: e.target.value });
-                }}
-                name="last-name"
-                class="w-full px-3 py-2 text-gray-800 transition duration-100 border rounded-md outline-none bg-gray-50 focus:ring ring-blue-300"
-                value={this.state.lname}
-              />
-            </div>
-
-            <div class="sm:col-span-2">
-              <label for="company" class="inline-block mb-2 text-sm font-medium text-gray-500 sm:text-base">
-                Company
-              </label>
-              <input
-                onChange={(e) => {
-                  this.setState({ company: e.target.value });
-                }}
-                name="company"
-                class="w-full px-3 py-2 text-gray-800 transition duration-100 border rounded-md outline-none bg-gray-50 focus:ring ring-blue-300"
-                value={this.state.company}
-              />
-            </div>
-
-            <div class="sm:col-span-2">
-              <label for="email" class="inline-block mb-2 text-sm font-medium text-gray-500 sm:text-base">
-                Email
-              </label>
-              <input
-                onChange={(e) => {
-                  this.setState({ email: e.target.value });
-                }}
-                name="email"
-                class="w-full px-3 py-2 text-gray-800 transition duration-100 border rounded-md outline-none bg-gray-50 focus:ring ring-blue-300"
-                value={this.state.email}
               />
             </div>
 
@@ -122,13 +77,13 @@ export default class Contact extends Component {
 
             <div class="flex items-center justify-between sm:col-span-2">
               <button
-                onClick={() => this.submitMessage(this.state.email)}
+                onClick={this.submitMessage}
                 class="inline-block px-8 py-3 text-sm font-semibold text-center text-white transition duration-100 bg-blue-600 rounded-md outline-none hover:bg-blue-500 active:bg-blue-700 ring-blue-300 md:text-base">
                 Send Message
               </button>
             </div>
           </form>
-          <p class="max-w-3xl mx-auto mt-5 text-xs text-gray-400">Please allow up to 24-48 hour response during the weekdays.</p>
+        
         </div>
       </div>
     );

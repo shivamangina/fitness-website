@@ -41,10 +41,10 @@ export default class Video extends Component {
                   class=""></path>
               </svg>
             </div>
-            <div class="relative overflow-hidden rounded-md shadow-2xl cursor-pointer group" data-rounded="rounded-md" data-rounded-max="rounded-full">
+            <div class="relative rounded-md shadow-2xl cursor-pointer group" data-rounded="rounded-md" data-rounded-max="rounded-full">
               
 
-              <YouTube class="z-10 w-full h-full" videoId="9GS_p2UJA-I" />
+              <YouTube class="z-10  w-full h-full" videoId="9GS_p2UJA-I" />
             </div>
           </div>
         </div>
