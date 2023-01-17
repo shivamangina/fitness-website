@@ -2,18 +2,18 @@ import React from 'react';
 
 
 const menu = [
-  { name: 'Home', href: '#_' },
+  { name: 'Home', href: '/' },
   // { name: 'About Me', href: '#_' },
   // { name: 'My Team', href: '#_' },
   // { name: 'Classes', href: '/classes' },
   // { name: 'Gallery', href: '#gallery' },
-  { name: 'Contact', href: '#_' },
+  { name: 'Contact', href: '/' },
 ];
 
 export default function Header() {
   return (
     <div class="flex flex-col flex-wrap items-center px-8 py-6 mx-auto max-w-7xl md:flex-row tails-selected-element">
-      <a href="#_" class="flex items-center order-first mb-4 font-medium text-gray-900 lg:order-none lg:w-auto title-font lg:items-center lg:justify-center md:mb-0">
+      <a href="/" class="flex items-center order-first mb-4 font-medium text-gray-900 lg:order-none lg:w-auto title-font lg:items-center lg:justify-center md:mb-0">
         <span class="text-xl font-black leading-none text-gray-900 select-none logo">
           {/* <img src={logo} alt="logo" class="h-14 p-2" /> */}
           <button
@@ -27,7 +27,7 @@ export default function Header() {
       </a>
       <nav class="flex flex-wrap items-center justify-center text-base font-light tracking-tight md:ml-auto">
         {menu.map((item, index) => (
-          <a href="#_" class="mr-5 hover:text-gray-900">
+          <a href={item.href} class="mr-5 hover:text-gray-900">
             {item.name}
           </a>
         ))}
