@@ -23,7 +23,7 @@ export default class Contact extends Component {
   };
   render() {
     return (
-      <div class="py-10 bg-white md:py-16 tails-selected-element" contenteditable="true">
+      <div class="py-10 bg-white md:py-16 tails-selected-element" >
         <div class="px-10 mx-auto max-w-7xl md:px-16">
           <div class="max-w-3xl mx-auto mb-10 md:mb-16">
             <p class="text-xs font-bold text-blue-500 uppercase">Contact Us</p>

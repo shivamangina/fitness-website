@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Team() {
   return (
-    <section class="w-full py-16 bg-white lg:py-24 tails-selected-element" contenteditable="true">
+    <section class="w-full py-16 bg-white lg:py-24 tails-selected-element" >
     <div class="px-12 mx-auto text-center max-w-7xl">
         <div class="space-y-12 md:text-left">
             <div class="mb-20 space-y-5 sm:mx-auto sm:max-w-xl md:max-w-2xl sm:space-y-4 lg:max-w-5xl">
