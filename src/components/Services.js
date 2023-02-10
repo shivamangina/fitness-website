@@ -48,10 +48,10 @@ export default function Example() {
       <main>
         {/* Hero section */}
         <div className="relative">
-          <section aria-labelledby="collection-heading" className="relative -mt-96 sm:mt-0">
+          <section aria-labelledby="collection-heading" className="relative  sm:mt-0">
             <section aria-labelledby="trending-heading">
               <div className="mx-auto max-w-7xl py-24 px-4 sm:px-6 sm:py-32 lg:px-8 lg:pt-32">
-                <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-4 md:gap-y-0 lg:gap-x-8">
+                <div className="mt-6 grid grid-cols-1 gap-x-4 gap-y-10 sm:grid-cols-2 sm:gap-x-6 md:grid-cols-4 md:gap-y-0 lg:gap-x-8">
                   {trendingProducts.map((product) => (
                     <div key={product.id} className="group relative">
                       <div

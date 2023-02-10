@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import YouTube from 'react-youtube';
 
 export default class Video extends Component {
   render() {
@@ -19,7 +18,7 @@ export default class Video extends Component {
             <div class="relative flex mt-4">
               <a
                 href="https://www.youtube.com/@coachdipan9631"
-                class="relative flex items-center self-start justify-center py-2 pl-10 pr-5 mt-5 ml-5 text-base font-medium leading-tight text-red-500 transition duration-150 ease-in-out bg-gray-100 border-transparent rounded-full shadow-sm lg:py-4 md:pl-16 md:pr-5 xl:pr-10 hover:text-gray-400 focus:outline-none md:text-lg xl:text-xl"
+                class="relative flex items-center self-start justify-center py-2 pl-10 pr-5 mt-5 ml-5 text-base font-medium leading-tight text-red-500 transition duration-150 ease-in-out bg-gray-100 border-transparent rounded-full  lg:py-4 md:pl-16 md:pr-5 xl:pr-10 hover:text-gray-400 focus:outline-none md:text-lg xl:text-xl"
                 data-primary="purple-500"
                 data-rounded="rounded-full">
                 <svg class="absolute left-0 w-6 h-6 ml-3 md:w-10 md:h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -41,10 +40,8 @@ export default class Video extends Component {
                   class=""></path>
               </svg>
             </div>
-            <div class="relative rounded-md shadow-2xl cursor-pointer group" data-rounded="rounded-md" data-rounded-max="rounded-full">
-              
-
-              <YouTube class="z-10  w-full h-full" videoId="9GS_p2UJA-I" />
+            <div className="relative overflow-hidden w-full pt-[56.25%]">
+              <iframe className="absolute top-0 left-0 bottom-0 right-0 w-full h-full" src="https://www.youtube.com/embed/9GS_p2UJA-I"></iframe>
             </div>
           </div>
         </div>

@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <div>
       <Main />
-      {/* <Services /> */}
-      {/* <Video/> */}
+      <Services />
+      <Video/>
       <Intro />
       <About />
       <Quote/>

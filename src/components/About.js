@@ -5,13 +5,13 @@ export default function About() {
   return (
     <section class="relative flex flex-col items-center justify-center w-full px-6 py-24 bg-white bg-cover lg:py-32 min-w-screen tails-selected-element">
       <div class="flex flex-col items-center justify-center mx-auto sm:p-6 xl:p-8 lg:flex-row lg:max-w-6xl lg:p-0">
-        <div class="container relative z-20 flex flex-col w-full px-5 pb-1 pr-12 mb-16 text-2xl text-gray-700 lg:w-1/2 sm:pr-0 md:pr-6 md:pl-0 lg:pl-5 xl:pr-10 sm:items-center lg:items-start lg:mb-0">
+        <div class="container relative z-20 flex flex-col w-full px-5 pb-1 pr-12 mb-16 text-2xl text-gray-700 lg:w-1/2 sm:pr-0 md:pr-6 md:pl-0 lg:pl-5 xl:pr-10 items-start lg:items-start lg:mb-0">
           <p
             class="relative flex items-start justify-start w-full text-lg font-bold tracking-wider text-purple-500 uppercase lg:justify-left lg:items-left"
             data-primary="purple-500">
             i am
           </p>
-          <h1 class="relative z-20 text-5xl font-extrabold leading-none text-purple-500 xl:text-6xl sm:text-center lg:text-left" data-primary="purple-500">
+          <h1 class="relative z-20 text-5xl font-extrabold leading-none text-purple-500 xl:text-6xl  text-left sm:text-start" data-primary="purple-500">
             <span class="mt-1 text-gray-800 lg:mt-0">Dipan Rai</span>
           </h1>
           <p class="relative z-20 block mt-6 text-base font-light text-gray-500 xl:text-md sm:text-center lg:text-left">
