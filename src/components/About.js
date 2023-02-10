@@ -14,11 +14,15 @@ export default function About() {
           <h1 class="relative z-20 text-5xl font-extrabold leading-none text-purple-500 xl:text-6xl sm:text-center lg:text-left" data-primary="purple-500">
             <span class="mt-1 text-gray-800 lg:mt-0">Dipan Rai</span>
           </h1>
-          <p class="relative z-20 block mt-6 text-base font-light text-gray-500 xl:text-xl sm:text-center lg:text-left">
-            A seasoned boxing and fitness trainer with over 7 years of experience in boxing. With a wealth of knowledge and a passion for the sport, I have helped countless boxers
-            reach their full potential and achieve their goals. From amateur to professional, I have worked with a diverse range of athletes and have a proven track record of
-            success. Whether you're looking to improve your technique, increase your fitness, or compete at a high level, I have the skills and expertise to guide you every step of
-            the way.
+          <p class="relative z-20 block mt-6 text-base font-light text-gray-500 xl:text-md sm:text-center lg:text-left">
+            If you’ve scrolled this far I think it’s only fair that I tell you a little bit about myself. My name is Dipan Rai and boxing has been a part of my life since I was a
+            young child running around the streets of my hometown. Since I started training I have competed in numerous tournaments in India. As I grew older, my passion for boxing
+            quickly transformed into not just training and competing but also teaching more people the art of the science.rs reach their full potential and achieve their goals.
+            <br /> <br />
+            I currently reside in Bangalore with my dog Enzo. Over the past 7 years I have been working as a senior trainer at Rox Boxing Gym in Bangalore. I’ve also worked with
+            individual clients as a private coach and personal trainer. I have strived to provide all my students with the best training methods and techniques that I have picked
+            up over the years as an athlete and as a coach. I do not have a one size fits all fitness or training plan. With me as your trainer you can expect a personalised
+            workout plan that is built to fit your lifestyle and designed to help you achieve your fitness goals with ease.
             <br /> <br /> There are no shortcuts when it comes to achieving anything extraordinary. You have to be prepared to work hard and believe in yourself no matter how
             difficult it gets. But if you promise to give it your all, I'll meet you halfway and help you reach your goals.
             <br /> <br /> See you in the training.

@@ -12,8 +12,8 @@ export default function Quote() {
           You never lose until you actually give up.
           </p>
           <span class="inline-block w-10 h-1 mt-8 mb-6 bg-indigo-500 rounded" data-primary="indigo-500"></span>
-          <h2 class="text-sm font-medium tracking-wider text-gray-900 uppercase title-font">Mike Tyson</h2>
-          <p class="text-gray-500">Boxer</p>
+          {/* <h2 class="text-sm font-medium tracking-wider text-gray-900 uppercase title-font">Mike Tyson</h2>
+          <p class="text-gray-500">Boxer</p> */}
         </div>
       </div>
     </section>
