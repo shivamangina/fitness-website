@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 
 export default class Contact extends Component {
+  componentDidMount = (first) => {
+    const { ReactGA } = this.props;
+
+    ReactGA.send({ hitType: 'pageview', page: '/contact' });
+  };
+
   state = {
     fname: '',
     subject: '',
@@ -8,6 +14,14 @@ export default class Contact extends Component {
   };
 
   submitMessage = (e) => {
+    const { ReactGA } = this.props;
+
+    ReactGA.event({
+      category: 'Contact',
+      action: 'Link Click',
+      label: 'Send Whatsapp message',
+    });
+
     e.preventDefault();
     console.log('successfully submitted the message: ', this.state);
     const number = '919564073380';
@@ -31,7 +45,6 @@ export default class Contact extends Component {
           <div class="max-w-3xl mx-auto mb-10 md:mb-16">
             <p class="text-xs font-bold text-blue-500 uppercase">Contact Us</p>
             <h2 class="mt-1 text-2xl font-bold text-left text-gray-800 lg:text-3xl md:mt-2">Need to ask us a question?</h2>
-            
           </div>
           <form class="grid max-w-3xl gap-4 mx-auto sm:grid-cols-2">
             <div>
@@ -83,7 +96,6 @@ export default class Contact extends Component {
               </button>
             </div>
           </form>
-        
         </div>
       </div>
     );

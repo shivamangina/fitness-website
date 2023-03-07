@@ -18,6 +18,13 @@ export default class Video extends Component {
             <div class="relative flex mt-4">
               <a
                 href="https://www.youtube.com/@coachdipan9631"
+                onClickCapture={() =>
+                  this.props.ReactGA.event({
+                    category: 'Video',
+                    action: 'Link Click',
+                    label: 'Youtube',
+                  })
+                }
                 class="relative flex items-center self-start justify-center py-2 pl-10 pr-5 mt-5 ml-5 text-base font-medium leading-tight text-red-500 transition duration-150 ease-in-out bg-gray-100 border-transparent rounded-full  lg:py-4 md:pl-16 md:pr-5 xl:pr-10 hover:text-gray-400 focus:outline-none md:text-lg xl:text-xl"
                 data-primary="purple-500"
                 data-rounded="rounded-full">

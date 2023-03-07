@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Testomonials() {
+export default function Testomonials({ ReactGA }) {
   return (
     <section class="flex items-center justify-center py-20 bg-white min-w-screen tails-selected-element">
       <div class="px-16 bg-white">
@@ -84,7 +84,17 @@ export default function Testomonials() {
           <p
             class="relative flex items-start justify-start w-full text-sm underline font-light italic tracking-wider text-gray-500 uppercase lg:justify-center lg:items-center"
             data-primary="purple-500">
-            <a href="https://www.urbanpro.com/bangalore/dipan-rai/reviews/11441886">view all reviews on urbanpro here </a>
+            <a
+              onClickCapture={() =>
+                ReactGA.event({
+                  category: 'Testomonials',
+                  action: 'Link Click',
+                  label: 'Urban Pro',
+                })
+              }
+              href="https://www.urbanpro.com/bangalore/dipan-rai/reviews/11441886">
+              view all reviews on urbanpro here{' '}
+            </a>
           </p>
         </div>
       </div>

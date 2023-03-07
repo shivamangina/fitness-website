@@ -13,19 +13,49 @@ export default function Intro() {
               <section class="bg-white py-10 tails-selected-element">
                 <div class="grid grid-cols-1 sm:grid-cols-3  gap-4 items-center">
                   <div className="flex justify-center align-middle mt-4 sm:mt-2">
-                    <a href="https://www.facebook.com/deepen.rai.146" target={'_blank'}>
+                    <a
+                      onClickCapture={() =>
+                        this.props.ReactGA.event({
+                          category: 'Social Media',
+                          action: 'Link Click',
+                          label: 'Facebook',
+                        })
+                      }
+                      href="https://www.facebook.com/deepen.rai.146"
+                      target={'_blank'}
+                      rel="noreferrer">
                       <img src="https://cdn.devdojo.com/tails/images/facebook.svg" alt="Hubspot" class="block object-contain h-9" />
                     </a>
                   </div>
                   <div className="flex justify-center align-middle mt-4 sm:mt-2">
-                    <a href="https://www.youtube.com/@coachdipan9631" target={'_blank'}>
+                    <a
+                      onClickCapture={() =>
+                        this.props.ReactGA.event({
+                          category: 'Social Media',
+                          action: 'Link Click',
+                          label: 'Youtube',
+                        })
+                      }
+                      href="https://www.youtube.com/@coachdipan9631"
+                      target={'_blank'}
+                      rel="noreferrer">
                       <img src="https://cdn.devdojo.com/tails/images/youtube.svg" alt="Youtube" class="block object-contain h-7 lg:h-8" />
                     </a>
                   </div>
 
                   <div className="flex justify-center align-middle mt-4 sm:mt-2">
                     {' '}
-                    <a href="https://www.instagram.com/coachdipan" target={'_blank'}>
+                    <a
+                      onClickCapture={() =>
+                        this.props.ReactGA.event({
+                          category: 'Social Media',
+                          action: 'Link Click',
+                          label: 'Instagram',
+                        })
+                      }
+                      href="https://www.instagram.com/coachdipan"
+                      target={'_blank'}
+                      rel="noreferrer">
                       <img src="https://logos-download.com/wp-content/uploads/2016/03/Instagram_Logo_2016.png" alt="Slack" class="block object-contain h-9 mt-3" />
                     </a>
                   </div>
