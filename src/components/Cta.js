@@ -25,7 +25,7 @@ export default class Cta extends Component {
               onClick={() => this.submitEmail(this.state.email)}
               href="#_"
               class="sm:w-auto w-full block sm:inline-block text-slate-900 bg-white border-2 border-slate-500 hover:bg-gray-50 focus:ring-4 focus:ring-purple-300 poppins font-bold  text-sm px-5 py-3 mr-2 mb-2 focus:outline-none dark:focus:ring-gray-800">
-              <Link to="/contact">Book Free Trail</Link>
+              <Link to="/contact">Book Free Trial</Link>
             </a>
           </div>
         </div>
