@@ -29,7 +29,7 @@ export default function Header() {
       <button
         data-rounded="rounded"
         class="inline-flex items-center px-3 py-2 mt-4 text-sm font-bold text-gray-700 bg-gray-200 border-0 rounded focus:outline-none hover:bg-gray-300 md:mt-0">
-        <Link to="/contact">Book Free Trail</Link>
+        <Link to="/contact">Book Free Trial</Link>
 
         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
           <path d="M5 12h14M12 5l7 7-7 7"></path>
