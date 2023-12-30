@@ -24,7 +24,7 @@ const trendingProducts = [
 
   {
     id: 1,
-    name: 'Kick Boxing',
+    name: 'competitional Boxing',
     color: 'bg-blue-400',
     price: 'Starting at ₹750',
     href: '/contact',
